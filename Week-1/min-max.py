@@ -14,7 +14,7 @@ import sys
 
 def miniMaxSum(arr):
     # Write your code here
-    sorted_arr = sorted(arr)
+    sorted_arr = sorted(arr) #sorted(iterable) : Return a new list containing all items from the iterable in ascending order. A custom key function can be supplied to customize the sort order, and the reverse flag can be set to request the result in descending order.
     min_sum= sum(sorted_arr[:4])
     max_sum = sum(sorted_arr[1:])
     
